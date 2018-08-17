@@ -1,6 +1,6 @@
 var terminalin = "";
 var inputavailable = true;
-var apps = [new Startup("startup"), new Help("help")];
+var apps = [new Startup("startup"), new Email("email"), new Github("github"), new Hello("hello"), new Help("help")];
 
 window.addEventListener("keydown", function (event) {
     if (inputavailable) {
